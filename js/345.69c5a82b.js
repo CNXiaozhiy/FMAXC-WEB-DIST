@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkFMAXC_WEB_VUE2"]=self["webpackChunkFMAXC_WEB_VUE2"]||[]).push([[345],{6726:function(t,n,e){e.r(n),e.d(n,{default:function(){return l}});var r=function(){var t=this,n=t._self._c;return n("div",{attrs:{id:"AccountCenterPage"}},[n("div",{staticClass:"card"},[n("router-link",{staticClass:"btn btn-primary",attrs:{to:{name:"rAccountCenterSetting"}}},[t._v("前往设置您的账号")])],1)])},a=[],s={name:"Center"},u=s,c=e(1656),i=(0,c.A)(u,r,a,!1,null,"66d56a26",null),l=i.exports}}]);
+//# sourceMappingURL=345.69c5a82b.js.map
