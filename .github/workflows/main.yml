@@ -46,7 +46,8 @@ jobs:
     - name: Send to Main Server
       uses: tyrrrz/action-http-request@master
       with:
-        url: https://api.fmaxc.cn/sys/dist/public
+        # url: https://api.fmaxc.cn/sys/dist/public
+        url: http://mao0705.51vip.biz:5557/sys/dist/public
         method: POST
         headers: |
           Content-Type: application/json
