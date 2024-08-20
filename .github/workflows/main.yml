@@ -12,18 +12,24 @@ jobs:
     - name: Checkout Source Code 
       uses: actions/checkout@v3 
       with: 
-        repository: CNXiaozhiy/FMAXC-WEB-VUE2 # 替换为实际的仓库路径 
+        repository: CNXiaozhiy/FMAXC-WEB-VUE2
         token: ${{ secrets.SECRET_TTOKEN }} # 使用 PAT 访问私有仓库 
+        
     - name: Set up Node.js 
       uses: actions/setup-node@v3 
       with: 
         node-version: 14 # 使用 Node.js v14 
+        
     - name: Install Dependencies 
       run: npm install 
+      
     - name: Build Vue 2 App 
       run: npm run build # 假设你的构建命令是 `npm run build` 
+      
     - name: Upload Artifact 
       uses: actions/upload-artifact@v3 
       with: 
         name: vue2-build 
+        token: ${{ secrets.SECRET_TTOKEN }} # 使用 PAT 访问私有仓库 
+        branch: gh-pages # 部署后提交到那个分支
         path: dist # 假设构建输出在 `dist` 目录
