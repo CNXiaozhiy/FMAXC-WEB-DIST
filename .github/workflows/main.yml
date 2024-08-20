@@ -42,3 +42,13 @@ jobs:
         github_token: ${{ secrets.PAT }}  
         publish_branch: gh-pages
         publish_dir: ./dist
+        
+    - name: Send to Main Server
+      uses: fjogeleit/http-request-action@v1
+      with:
+        url: 'https://api.fmaxc.cn/sys/dist/public'
+        method: 'POST'
+        username: ${{ secrets.AWX_USER }}
+        password: ${{ secrets.AWX_PASSWORD }}
+        customHeaders: '{"Content-Type": "application/json"}'
+        data: '{"type": "ok-2", "operator": "github"}'
