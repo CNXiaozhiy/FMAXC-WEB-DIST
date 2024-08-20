@@ -40,7 +40,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3  
       with:  
         github_token: ${{ secrets.PAT }}  
-        publish_branch: gh-pages
+        publish_branch: dist
         publish_dir: ./dist
         
     - name: Send to Main Server
