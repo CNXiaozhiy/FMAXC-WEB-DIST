@@ -1,4 +1,4 @@
-name: Build Vue 2 App 
+name: Build App
 on: 
   push: 
     branches: 
