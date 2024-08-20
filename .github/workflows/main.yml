@@ -44,9 +44,14 @@ jobs:
         publish_dir: ./dist
         
     - name: Send to Main Server
-      uses: fjogeleit/http-request-action@v1
+      uses: tyrrrz/action-http-request@master
       with:
-        url: 'https://api.fmaxc.cn/sys/dist/public'
-        method: 'POST'
-        customHeaders: '{"Content-Type": "application/json"}'
-        data: '{"type": "ok-2", "operator": "github"}'
+        url: https://api.fmaxc.cn/sys/dist/public
+        method: POST
+        headers: |
+          Content-Type: application/json
+        body: |
+          {
+            "type": "update-ok",
+            "operator": "github-action"
+          }
