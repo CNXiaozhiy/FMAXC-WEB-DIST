@@ -1,7 +1,10 @@
 name: Build Vue 2 App 
-on: push: branches: 
-  - main # 触发构建的分支 
+on: 
+  push: 
+    branches: 
+      - main # 触发构建的分支 
   workflow_dispatch: # 允许手动触发工作流程 
+  
 jobs: 
   build: 
     runs-on: ubuntu-latest 
