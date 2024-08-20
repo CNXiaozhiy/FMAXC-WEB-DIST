@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v3 
       with: 
         repository: CNXiaozhiy/FMAXC-WEB-VUE2
-        github_token: ${{ secrets.SECRET_TTOKEN }} # 使用 PAT 访问私有仓库 
+        github_token: ${{ secrets.PAT }} # 使用 PAT 访问私有仓库 
         
     - name: Set up Node.js
       uses: actions/setup-node@v2
@@ -29,5 +29,5 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.SECRET_TTOKEN }}  # 此处修改为你的Secret名称
+        github_token: ${{ secrets.PAT }}  # 此处修改为你的Secret名称
         publish_dir: ./dist
