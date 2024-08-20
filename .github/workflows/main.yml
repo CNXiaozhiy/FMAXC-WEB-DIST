@@ -12,7 +12,7 @@ jobs:
     - name: Checkout Source Code 
       uses: actions/checkout@v3 
       with: 
-        repository: your-username/your-private-vue2-repo # 替换为实际的仓库路径 
+        repository: CNXiaozhiy/FMAXC-WEB-VUE2 # 替换为实际的仓库路径 
         token: ${{ secrets.GITHUB_TOKEN }} # 使用 PAT 访问私有仓库 
     - name: Set up Node.js 
       uses: actions/setup-node@v3 
