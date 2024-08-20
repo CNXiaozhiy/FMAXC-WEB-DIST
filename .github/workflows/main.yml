@@ -15,16 +15,16 @@ jobs:
         repository: CNXiaozhiy/FMAXC-WEB-VUE2
         github_token: ${{ secrets.SECRET_TTOKEN }} # 使用 PAT 访问私有仓库 
         
-    - name: Set up Node.js 
-      uses: actions/setup-node@v3 
-      with: 
-        node-version: 14 # 使用 Node.js v14 
-        
-    - name: Install Dependencies 
-      run: npm install 
-      
-    - name: Build Vue 2 App 
-      run: npm run build # 假设你的构建命令是 `npm run build` 
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+ 
+    - name: Install dependencies
+      run: npm install
+ 
+    - name: Build
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
