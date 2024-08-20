@@ -1,8 +1,8 @@
 name: Build App
 on: 
-  push: 
-    branches: 
-      - main # 触发构建的分支 
+  # push: 
+  #   branches: 
+  #     - main # 触发构建的分支 
   workflow_dispatch: # 允许手动触发工作流程 
   repository_dispatch:
     types: [build-and-deploy]
