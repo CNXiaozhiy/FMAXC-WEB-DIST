@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkFMAXC_WEB_VUE2"]=self["webpackChunkFMAXC_WEB_VUE2"]||[]).push([[870],{2870:function(n,t,e){e.r(t),e.d(t,{default:function(){return f}});var u=function(){var n=this,t=n._self._c;return t("div")},r=[],s={name:"Dashboard",data(){return{}},async mounted(){this.$store.state.userData.user.info}},a=s,l=e(1656),c=(0,l.A)(a,u,r,!1,null,null,null),f=c.exports}}]);
+//# sourceMappingURL=870.6fc2f0d5.js.map

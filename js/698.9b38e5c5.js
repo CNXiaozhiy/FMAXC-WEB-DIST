@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkFMAXC_WEB_VUE2"]=self["webpackChunkFMAXC_WEB_VUE2"]||[]).push([[698],{9317:function(t,a,e){e.r(a),e.d(a,{default:function(){return o}});var s=function(){var t=this,a=t._self._c;return a("div")},u=[],n={name:"Dashboard",data(){return{}},async mounted(){await this.$store.state.userData.pullData(this,!0,!0),this.$store.state.userData.user.info}},r=n,l=e(1656),i=(0,l.A)(r,s,u,!1,null,null,null),o=i.exports}}]);
-//# sourceMappingURL=698.9b38e5c5.js.map
