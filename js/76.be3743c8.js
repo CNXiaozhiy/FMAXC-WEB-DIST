@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkFMAXC_WEB_VUE2"]=self["webpackChunkFMAXC_WEB_VUE2"]||[]).push([[76],{4076:function(t,a,e){e.r(a),e.d(a,{default:function(){return l}});var n=function(){var t=this;t._self._c;return t._m(0)},s=[function(){var t=this,a=t._self._c;return a("div",{staticClass:"card text-center",attrs:{id:"aiChat-Page"}},[a("h3",{staticClass:"text-danger"},[t._v("aiChat 施工中...")])])}],r={name:"aiChat",methods:{}},u=r,i=e(1656),c=(0,i.A)(u,n,s,!1,null,null,null),l=c.exports}}]);
-//# sourceMappingURL=76.be3743c8.js.map

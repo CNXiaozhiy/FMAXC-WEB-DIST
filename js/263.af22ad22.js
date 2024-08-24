@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkFMAXC_WEB_VUE2"]=self["webpackChunkFMAXC_WEB_VUE2"]||[]).push([[263],{3263:function(t,a,e){e.r(a),e.d(a,{default:function(){return l}});var n=function(){var t=this;t._self._c;return t._m(0)},r=[function(){var t=this,a=t._self._c;return a("div",{staticClass:"card text-center",attrs:{id:"aiDraw-Page"}},[a("h3",{staticClass:"text-danger"},[t._v("aiDraw 施工中...")])])}],s={name:"aiDraw",methods:{}},u=s,i=e(1656),c=(0,i.A)(u,n,r,!1,null,null,null),l=c.exports}}]);
-//# sourceMappingURL=263.af22ad22.js.map
