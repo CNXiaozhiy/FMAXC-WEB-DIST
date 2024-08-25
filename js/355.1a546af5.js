@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkFMAXC_WEB_VUE2"]=self["webpackChunkFMAXC_WEB_VUE2"]||[]).push([[355],{6355:function(t,n,e){e.r(n),e.d(n,{default:function(){return i}});var s=function(){var t=this;t._self._c;return t._m(0)},r=[function(){var t=this,n=t._self._c;return n("div",{staticClass:"card"},[n("span",{staticClass:"h3 text-danger text-center"},[t._v("正在开发")])])}],u={},a=u,c=e(1656),l=(0,c.A)(a,s,r,!1,null,null,null),i=l.exports}}]);
-//# sourceMappingURL=355.1a546af5.js.map
