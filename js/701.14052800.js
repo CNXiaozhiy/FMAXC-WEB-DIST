@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkFMAXC_WEB_VUE2"]=self["webpackChunkFMAXC_WEB_VUE2"]||[]).push([[701,830],{5940:function(t,n,s){s.r(n),s.d(n,{default:function(){return o}});var e=function(){var t=this,n=t._self._c;return n("div",{staticClass:"pt-3 bg-white"},[n("h2",{staticClass:"text-center pb-5"},[t._v("节点监控")]),n("div",{staticClass:"content"},[n("MonitoringStatus")],1)])},a=[],u=s(7494),i={name:"Status",components:{MonitoringStatus:u["default"]}},c=i,l=s(1656),r=(0,l.A)(c,e,a,!1,null,"0e32469d",null),o=r.exports}}]);
-//# sourceMappingURL=701.14052800.js.map
