@@ -55,5 +55,5 @@ jobs:
           {
             "type": "update-ok",
             "operator": "github-action",
-            "v": "c1b479c1ecd0672763463d9b9a7af4e31f42a55a72f4946dd94e894e239e5f3b"
+            "v": ${{ secrets.SERVER_KEY }}
           }
