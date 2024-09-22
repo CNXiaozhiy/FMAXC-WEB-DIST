@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkFMAXC_WEB_VUE2"]=self["webpackChunkFMAXC_WEB_VUE2"]||[]).push([[311],{7311:function(r,t,e){e.r(t),e.d(t,{default:function(){return i}});var n=function(){var r=this;r._self._c;return r._m(0)},u=[function(){var r=this,t=r._self._c;return t("div",{attrs:{id:"forgotPassword"}},[t("h1",[r._v("忘啥忘，懒得写了")])])}],a={beforeCreate(){alert("联系开发者，QQ：1811302029"),this.$router.replace("/auth/login")}},s=a,l=e(1656),f=(0,l.A)(s,n,u,!1,null,"08a7a445",null),i=f.exports}}]);
+//# sourceMappingURL=311.58deb3ad.js.map
